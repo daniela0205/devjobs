@@ -1,0 +1,2 @@
+<a class="text-white text-sm uppercase font-bold p-3 {{Request::is('positions') ? 'bg-teal-500' : '' }} " href="{{ route('positions.index') }}">Positions</a>
+<a class="text-white text-sm uppercase font-bold p-3 {{Request::is('positions/create') ? 'bg-teal-500' : '' }} " href="{{ route('positions.create') }}">New Position</a>
